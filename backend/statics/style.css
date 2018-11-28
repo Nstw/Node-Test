@@ -5,6 +5,25 @@
 input {
   margin-top: 50px;
 }
+
+.input-field {
+  display: inline-block;
+  border: 1px solid #3874ce;
+  outline: none;
+  color: #2d7fb6;
+  padding: 5px 8px 5px 8px;
+  box-shadow: inset 1px 1px 4px #d5f5ff;
+}
+
+.input-submit {
+  display: inline-block;
+  background: #026694;
+  border: 1px solid #7ac7eb;
+  padding: 5px 15px 5px 15px;
+  color: #f9faff;
+  box-shadow: inset -1px -1px 3px #4c90bd;
+}
+
 table {
   border-collapse: collapse;
   width: 40%;

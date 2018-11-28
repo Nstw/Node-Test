@@ -31,6 +31,8 @@
         tr = createNode("tr");
 
       img.src = user.avatar;
+      img.width = 80;
+      img.height = 80;
       tdLogin.innerHTML = `${user.login}`;
       tdUrl.innerHTML = ` ${user.url}`;
       // Append all elements
